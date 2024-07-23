@@ -1,0 +1,29 @@
+.small-button {
+    width:94px;
+    height:89px;
+    position:absolute;
+    background:url(transparent_button_small_sprite.png) no-repeat;
+    background-position:-5px -5px;
+    border:0;
+    display:block;
+    -webkit-tap-highlight-color:transparent;
+
+}
+
+.small-button:focus {
+    background:url(transparent_button_small_sprite.png) no-repeat;
+    background-position:-5px -5px
+  }
+  .small-button:active {
+    background:url(transparent_button_small_sprite.png) no-repeat;
+    background-position:-109px -5px
+  }
+
+.alinhamento{
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+}
